@@ -15,24 +15,26 @@
     <h1>Calculadora</h1>
     <br>
     <br>
-
-<label for="numero-a">Escribe un número:</label>    <input type="number" name="numero-a" id="numero-a" required>
-
+<!-- Numero A -->
+<label for="numero-a">Escribe un número:</label>    
+<input type="number" name="numero-a" id="numero-a" required>
+<!-- Numero B -->
 <label for="numero-b">Escribe un número:</label>
-<input type="number" name="numero b" id="numero b"required>
+<input type="number" name="numero-b" id="numero-b"required>
 <br>
 
 <input type="submit" value="suma +" onclick="suma()">
 <br>
-<input type="submit" value="resta -">
+<input type="submit" value="resta -" onclick="resta()">
 <br>
-<input type="submit" value="división /">
+<input type="submit" value="división /" onclick="division()">
 <br>
-<input type="submit" value="Multiplicación *">
+<input type="submit" value="Multiplicación *" onclick="multiplicacion()">
 <br>
 <label for="Resultado">El resultado es: </label>
-<input type="number" name="Resultado" id="resultado" " >
+<input type="number" name="Resultado" id="resultado" resultado(suma, resta,multiplicacion,division)>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
 
