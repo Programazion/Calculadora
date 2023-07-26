@@ -13,28 +13,37 @@
 
 <div id="container">
     <h1>Calculadora</h1>
-    <br>
-    <br>
-<!-- Numero A -->
-<label for="numero-a">Escribe un número:</label>    
-<input type="number" name="numero-a" id="numero-a" required>
-<!-- Numero B -->
-<label for="numero-b">Escribe un número:</label>
-<input type="number" name="numero-b" id="numero-b"required>
-<br>
+    <br>   
+    <!-- Numero A -->
+    <input type="number" id="numeroA" required><h3>Ingresa un número:</h3></input>
 
-<input type="submit" value="suma +" onclick="suma()">
-<br>
-<input type="submit" value="resta -" onclick="resta()">
-<br>
-<input type="submit" value="división /" onclick="division()">
-<br>
-<input type="submit" value="Multiplicación *" onclick="multiplicacion()">
-<br>
-<label for="Resultado">El resultado es: </label>
-<input type="number" name="Resultado" id="resultado" resultado(suma, resta,multiplicacion,division)>
+    <!-- Numero B -->
+    <input type="number" id="numeroB"required><h3>Ingresa un número:</h3></input>
+
+    <!-- Menú de botones -->
+    <div class="container-2">
+        <!-- Botón Suma -->
+        <button id="suma" onclick="suma()">SUMAR (+)</button>
+        <br>
+        <!-- Botón Resta --> 
+        <button id="resta" onclick="resta()">RESTAR (-)</button>
+    </div>
+    <br>
+    <div class="container-2">
+        <!-- Botón Division -->
+        <button id="division" onclick="division()">División (/)</button>
+        <br>
+        <!-- Botón Multiplicación --> 
+        <button id="multiplicacion" onclick="multiplicar()">MULTIPLICAR (*)</button>
+
+    </div>
+            <!-- Resultado -->
+    <h1>Resultado:</h1><input id="resultado" ></input>
+
 </div>
+<br><br><br><br><br><br><br>
 <script src="script.js"></script>
+<footer>Programazion Software Company >> All right reserved 2023>> </footer>
 </body>
 </html>
 

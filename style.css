@@ -1,19 +1,25 @@
 body{
     background-image: url("fondo.jpg");
+    background-repeat:initial;
     
 }
 h1{
-    color:aqua;
+    color:rgb(27, 184, 163);
     font-size:xx-large;
-}
-label{
-    color: rgba(215, 236, 19, 0.945);
 }
 #container{
     display:flex;
     flex-direction: column;
     align-items: center;
-    align-content: right;
-    padding-left: 70%;
+    align-content: center;
+    padding-left: 80%;
     padding-top: 2%;
+
+}
+.container-2{
+    display: flex;
+    flex-direction: row;
+}
+h3{
+    color: rgb(239, 241, 245);
 }
