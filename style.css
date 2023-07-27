@@ -1,7 +1,6 @@
 body{
     background-image: url("fondo.jpg");
-    background-repeat:initial;
-    
+    background-repeat:none;    
 }
 h1{
     color:rgb(27, 184, 163);
